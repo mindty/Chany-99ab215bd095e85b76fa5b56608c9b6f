@@ -22,7 +22,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    String UPDATEURL = "http://192.168.1.2/tes/regist.php";
+    String UPDATEURL = "http://192.168.1.2/tes/updatestate.php";
 
     LinearLayout iflogin, ifnot;
     TextView time, username;
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateloginstate() {
         String login_state = "0";
-        String usernames;
+        String usernames = username.toString();
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, UPDATEURL, response -> {
 
