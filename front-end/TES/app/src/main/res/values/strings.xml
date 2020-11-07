@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TES</string>
+    <string name="tv_username">Username :</string>
+    <string name="tv_password">Password :</string>
+    <string name="tv_repeat_password">Repeat Password :</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="todo">TODO</string>
+    <string name="dont_have_any_account">Don\'t have any account ?</string>
+    <string name="tv_register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="blank" />
+    <string name="time_login">Time Login</string>
+    <string name="logout">LOGOUT</string>
+    <string name="silahkan_login_terlebih_dahulu">Silahkan login terlebih dahulu</string>
+</resources>

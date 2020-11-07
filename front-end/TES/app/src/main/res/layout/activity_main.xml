@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/iflogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_timelogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/time_login"/>
+
+    <TextView
+        android:id="@+id/time_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/blank"/>
+
+    <TextView
+        android:id="@+id/hellouser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank"
+        android:textColor="@color/design_default_color_primary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:background="@drawable/bg_round"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:onClick="logout"
+        android:textColor="#ffff"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ifnotlogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/notlogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/silahkan_login_terlebih_dahulu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:onClick="login"
+            android:textColor="@color/design_default_color_primary"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
